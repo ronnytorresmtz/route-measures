@@ -1,0 +1,30 @@
+{
+    "name": "ronnytorresmtz/route-measures",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "~6.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ronnytorresmtz\\RouteMeasures\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ronnytorresmtz\\RouteMeasures\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
