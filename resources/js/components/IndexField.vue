@@ -12,9 +12,9 @@ export default {
             this.$toasted.show(this.field.response['message'] , { type: 'error' })
         } else {
             this.field.value = this.field.distance['kms'] + ' Kilometers (' + 
-                        this.field.distance['miles'] + ' Miles) <br> ' + 
-                        this.field.duration['hours'] + ' Hours ' +
-                        this.field.duration['minutes'] + ' Minutes';
+                            this.field.distance['miles'] + ' Miles) <br> ' + 
+                            this.field.duration['hours'] + ' Hours ' +
+                            this.field.duration['minutes'] + ' Minutes';
         }
     },
 }
