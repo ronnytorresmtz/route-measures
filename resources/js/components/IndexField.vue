@@ -1,5 +1,4 @@
 <template>
-
     <span v-html="field.value"></span>
 </template>
 
