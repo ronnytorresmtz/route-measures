@@ -249,6 +249,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+
     props: ['resourceName', 'field'],
 
     created: function created() {
@@ -348,6 +349,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+
     props: ['resource', 'resourceName', 'resourceId', 'field'],
 
     created: function created() {
