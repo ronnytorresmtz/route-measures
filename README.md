@@ -1,8 +1,8 @@
 # Laravel Nova Field - Route Measures
 
-## Calculate the distance and duration of a route using the Mapbox Directory Api
+### Calculate the distance and duration of a route using the Mapbox Directory Api
 
-### How to Use
+## How to Use
 
 
         public function fields(Request $request)
