@@ -4,7 +4,7 @@
 
 ## How to install
 
-        npm install ronnytorresmtz/routemeasures
+        composer require ronnytorresmtz/route-measures
 
 
 ## How to Use
