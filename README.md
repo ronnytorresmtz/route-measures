@@ -25,7 +25,7 @@
         
         }
 
-### Parameters:
+### Parameters
 
 ->route($origin, $destination, $token)
 
@@ -35,10 +35,19 @@
 
         $token: access token from your Mapbox Account
 
+### Config the Access Token
 
-### Aditional comments
+- Go to the Mapbox site and create an account
+- Go to your account and create a public/permanent access token for your app
+- Add a "MAPBOX_ACCESS_TOKEN" key in your laravel .env file and set your Access Token
+
+Read the [Mapbox Direction API](https://docs.mapbox.com/api/navigation/) documentation.
+Read the [Mapbox Access Token](https://docs.mapbox.com/help/tutorials/get-started-tokens-api/) documentation.
+
+### Additional Comments
 
 - Show distance and duration of the route as IndexField and DetailField
+
 
 
 
