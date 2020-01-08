@@ -1,14 +1,13 @@
 {
     "name": "ronnytorresmtz/route-measures",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova field - Calculate the distance and duration of a route",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0",
-        "guzzlehttp/guzzle": "~6.3.3"
+        "php": ">=7.1.0"
     },
     "autoload": {
         "psr-4": {
