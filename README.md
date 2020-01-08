@@ -33,6 +33,15 @@
 
         $origin: pair of geo-coordinates (longitude, latitude)
 
-        $token: token access from your Mapbox Account
+        $token: access token from your Mapbox Account
+
+
+### Aditional comments
+
+- Show distance and duration of the route as IndexField and DetailField
+
+
+
+Any suggestion is welcome
 
 
