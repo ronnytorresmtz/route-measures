@@ -20,7 +20,7 @@
             return [
                 
                 RouteMeasures::make('Measures')
-                    ->route($origin,  $destination, $token),
+                    ->route($origin, $destination, $token),
             ];
         
         }
