@@ -130,8 +130,6 @@ class RouteMeasures extends Field
      */
     public function buildUrl($route, $token) {
 
-        // $token = 'pk.eyJ1Ijoicm9ubnl0b3JyZXNtdHoiLCJhIjoiY2s0d3Y2bzZuNDhkdzNqb2dtNzlsaTVjZiJ9.k6TA561lIOhoUylKVgA7nA';
-
         $api_url = 'https://api.mapbox.com/';
         $api_service = 'directions/v5/';
         $api_mode = 'mapbox/driving/';
