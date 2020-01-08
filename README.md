@@ -27,7 +27,7 @@
 
 ### Parameters:
 
-    ->route($origin, $destination, $token)
+->route($origin, $destination, $token)
 
         $origin: pair of geo-coordinates (longitude, latitude)
 
